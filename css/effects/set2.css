@@ -124,7 +124,7 @@
 
 	word-spacing: -0.15em;
 
-	font-weight:400; color:#FFF;
+	font-weight:400; color:#FFF; /*valeur initiale #FFF*/
 
 }
 
@@ -179,7 +179,7 @@ figure.effect-oscar {
 
 	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);*/
 
-	background-color:#1bdab5; /*Valeur à changer pour la couleur rose, valeur initiale #fb5353*/
+	background-color:#009FE3; /*Valeur à changer pour la couleur rose, valeur initiale #fb5353*/
 
 }
 
