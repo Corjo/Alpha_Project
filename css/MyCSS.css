@@ -44,5 +44,8 @@
 .video-container video.fillWidth {
     width: 100%;
 }
-
-/* Fin des CSS de module vidéo*/
+.test_Block{
+    width: 100%;
+    background-color: blue;
+    height: 250px;
+}
