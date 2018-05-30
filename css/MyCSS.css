@@ -1,3 +1,14 @@
+.title_video{
+    width: 100%;    
+    z-index: 1000;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    color: white;
+}
+.img_center{
+left: 50%;
+}
 /*
 
         CSS. for getion vidéo de la homepage
