@@ -1,3 +1,11 @@
+.Test_2{
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    left: 48%;
+    position : relative;
+}
+
 .title_video{
     width: 100%;    
     z-index: 1000;
@@ -7,7 +15,15 @@
     color: white;
 }
 .img_center{
-left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 125px;
+    left: 48%;
+}
+
+.blue_text{
+    color: #fb5353;
 }
 /*
 
