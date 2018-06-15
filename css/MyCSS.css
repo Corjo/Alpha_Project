@@ -1,14 +1,21 @@
 .Test_2{
     width: 25px;
     height: 25px;
-    background-color: blue;
     left: 48%;
     position : relative;
 }
-
+.Bg_Blue{
+    background-color: blue;
+}
+.Bg_Green{
+    background-color: green;
+}
+.Bg_Red{
+    background-color: red;
+}
 .title_video{
     width: 100%;    
-    z-index: 1000;
+    z-index: 51;
     position: absolute;
     text-align: center;
     top: 35%;
@@ -58,7 +65,7 @@
     position: absolute;
 }
 .video-container .filter {
-    z-index: 100;
+    z-index: 50;
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
