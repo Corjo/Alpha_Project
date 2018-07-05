@@ -4,14 +4,28 @@
     left: 48%;
     position : relative;
 }
-.Bg_Blue{
-    background-color: blue;
+.Box_Values{
+background-color: white;
+padding: 15px;
+margin-left: auto;
+margin-right: auto;
+width: 255px;
+height: 385px;
+
+}
+.Picto_Value{
+background-color: blue;
+width: 100px;
+height: 100px;
+margin-left: auto;
+margin-right: auto;
 }
 .Bg_Green{
     background-color: green;
 }
 .Bg_Red{
     background-color: red;
+    padding: 50px;
 }
 .title_video{
     width: 100%;    
@@ -26,7 +40,6 @@
     margin-right: auto;
     width: 125px;
     height: 125px;
-    left: 48%;
 }
 
 .blue_text{
@@ -34,7 +47,7 @@
 }
 /*
 
-        CSS. for getion vidéo de la homepage
+        CSS. for gestion vidéo de la homepage
 
 */
 .homepage-hero-module {
