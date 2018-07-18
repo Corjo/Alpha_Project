@@ -7,20 +7,21 @@
 .Box_Values{
 background-color: white;
 padding: 15px;
+margin-top: 75px;
 margin-left: auto;
 margin-right: auto;
 width: 255px;
 height: 385px;
 font-size: 16px;
 text-align: justify;
-
 }
+
 .Picto_Value{
-background-color: blue;
 width: 100px;
 height: 100px;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 50px;
 }
 .Bg_Green{
     background-color: green;
@@ -45,7 +46,10 @@ margin-right: auto;
 }
 
 .blue_text{
-    color: #fb5353;
+    color: #009EE2;
+}
+.center{
+    text-align: center;
 }
 /*
 
@@ -67,7 +71,8 @@ margin-right: auto;
 }
 .video-container {
     position: relative;
-    bottom: 0%;
+    /*bottom: 0%;*/
+
     left: 0%;
     height: 100%;
     width: 100%;
@@ -77,6 +82,7 @@ margin-right: auto;
 .video-container .poster img {
     width: 100%;
     bottom: 0;
+    
     position: absolute;
 }
 .video-container .filter {
