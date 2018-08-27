@@ -71,14 +71,37 @@ margin-bottom: 50px;
 }
 .video-container {
     position: relative;
-    /*bottom: 0%;*/
-
+    bottom: 0%;
     left: 0%;
     height: 100%;
     width: 100%;
     overflow: hidden;
     background: #000;
 }
+@media screen and (max-width: 360px) { /* les classes suivante s'applique lorsque la largeur maximale est de 360px*/
+  .video-container {
+      position: relative;
+      bottom: 0%;
+      left: 0%;    
+      height: 640px; /*idée faire varier cette valeur en fonction de la largeur de l'écran @media*/
+      width: 100%;
+      /*min-width: 480px;*/
+      overflow: hidden;
+      /*background:black;*/
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 770x) { /* les classes suivante s'applique lorsque la largeur de l'écran a une valeur comprise entre min 360 et max 800*/
+  .video-container {
+      position: relative;
+      bottom: 0%;
+      left: 0%;    
+      height: 1024px; /*idée faire varier cette valeur en fonction de la largeur de l'écran @media*/
+      width: 100%;
+      /*min-width: 480px;*/
+      overflow: hidden;
+      background:red;
+  }
+}  
 .video-container .poster img {
     width: 100%;
     bottom: 0;
@@ -98,6 +121,7 @@ margin-bottom: 50px;
 }
 .video-container video.fillWidth {
     width: 100%;
+    min-width: 1920px;
 }
 .test_Block{
     width: 100%;
